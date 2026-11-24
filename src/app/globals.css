@@ -1,23 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fbf9f6;
   --foreground: #171717;
+  /* Very light card tints for the showcase grid. */
+  --tint-mint: #e8f4ea;
+  --tint-sky: #e7eefa;
+  --tint-rose: #faeaee;
+  --tint-lilac: #efeafa;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-tint-mint: var(--tint-mint);
+  --color-tint-sky: var(--tint-sky);
+  --color-tint-rose: var(--tint-rose);
+  --color-tint-lilac: var(--tint-lilac);
+
+  /* Accent palette for the "What you get" dots. */
+  --color-bubblegum: #ff4fa3;
+  --color-tangerine: #ff7a1a;
+  --color-lemon: #e3a600;
+  --color-mint: #1fb86a;
+  --color-lagoon: #0aa8b8;
+  --color-cobalt: #2f6bff;
+  --color-grape: #8a5cf6;
+  --color-tomato: #f2453d;
+
+  /* Allo (variable: wght, ROND, opsz). Display is round and tight, body is crisp and open. */
+  --font-display: var(--font-allo), ui-sans-serif, system-ui, sans-serif;
+  --font-display--font-variation-settings: "ROND" 100;
+  --font-body: var(--font-allo), ui-sans-serif, system-ui, sans-serif;
+  --font-body--font-variation-settings: "ROND" 15;
+
+  --tracking-body: 0.004em;
+
+  --animate-blink: blink 1.1s step-end infinite;
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0f0e0d;
+    --foreground: #f1efec;
+    --tint-mint: #16201a;
+    --tint-sky: #161b26;
+    --tint-rose: #24171b;
+    --tint-lilac: #1d1826;
   }
 }
 
 body {
+  font-family: var(--font-body);
+  font-variation-settings: var(--font-body--font-variation-settings);
+  font-weight: 430;
   color: var(--foreground);
+  letter-spacing: var(--tracking-body);
   background: var(--background);
 }

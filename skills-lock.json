@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "skills": {
+    "draw-icons": {
+      "source": "ronykax/skills",
+      "commit": "b9ab11f7c1c9f6f67d47e1ce28026447596cd4da",
+      "sourceType": "github",
+      "skillPath": "skills/draw-icons/SKILL.md",
+      "computedHash": "196bc77f6c553225b1f2d5c69203eddf715b6529e2c3d4011cb5656fdc692cfd",
+      "installMode": "copy"
+    }
+  }
+}

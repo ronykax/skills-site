@@ -1,0 +1,17 @@
+product: Showcase icons for the draw-icons skill landing page
+personality: [precise, light, soft]
+sizes: [48, 88]
+dir: src/app/draw-icons/icons/sharp
+dna:
+  style: duotone
+  duotoneOpacity: 0.3
+  stroke: 1.25
+  grid: 24
+  padding: 1
+  keylines: { circle: 20, square: 18, portrait: [16, 20], landscape: [20, 16] }
+  corners: { family: sharp, radius: { large: 0, small: 0 }, largeThreshold: 8 }
+  caps: square
+  joins: miter
+  angles: [0, 45, 90]
+  detail: low
+  minGap: 2

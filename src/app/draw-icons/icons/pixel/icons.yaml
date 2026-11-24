@@ -1,0 +1,17 @@
+product: Showcase icons for the draw-icons skill landing page
+personality: [playful, retro, crisp]
+sizes: [48, 96]
+dir: src/app/draw-icons/icons/pixel
+dna:
+  style: filled
+  stroke: 1
+  grid: 12
+  padding: 0.5
+  keylines: { circle: 10, square: 9, portrait: [8, 10], landscape: [10, 8] }
+  corners: { family: sharp, radius: { large: 0, small: 0 }, largeThreshold: 4 }
+  caps: square
+  joins: miter
+  angles: [0, 90]
+  detail: low
+  minGap: 1
+  pixel: true

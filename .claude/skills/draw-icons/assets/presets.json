@@ -1,0 +1,34 @@
+{
+  "_about": "Starting DNAs for a new set. Pick the one closest to the product's feel, then tune it on the test sheet.",
+  "friendly": {
+    "description": "soft and approachable",
+    "dna": {
+      "stroke": 1.75, "grid": 24, "padding": 1,
+      "keylines": { "circle": 20, "square": 18, "portrait": [16, 20], "landscape": [20, 16] },
+      "corners": { "family": "squircle", "radius": { "large": 4, "small": 2 }, "largeThreshold": 8 },
+      "caps": "round", "joins": "round", "angles": [0, 45, 90], "detail": "low", "minGap": 2,
+      "badge": { "position": "bottom-right", "size": 8, "gap": 2 }
+    }
+  },
+  "chunky": {
+    "description": "bold, soft and playful (kids, games, consumer apps)",
+    "dna": {
+      "stroke": 2.5, "grid": 24, "padding": 1,
+      "keylines": { "circle": 19.5, "square": 17.5, "portrait": [15.5, 19.5], "landscape": [19.5, 15.5] },
+      "corners": { "family": "squircle", "radius": { "large": 5, "small": 2.5 }, "largeThreshold": 8 },
+      "caps": "round", "joins": "round", "angles": [0, 45, 90], "detail": "minimal", "minGap": 2,
+      "badge": { "position": "bottom-right", "size": 9, "gap": 2 }
+    },
+    "notes": "Chunky strokes eat space: keylines shrink so a 2.5 stroke keeps 1 unit of padding, and with gap 2 inner details need 4.5 units of clearance, so keep icons to 2–4 bold pieces."
+  },
+  "precise": {
+    "description": "technical and exact",
+    "dna": {
+      "stroke": 1.5, "grid": 24, "padding": 1,
+      "keylines": { "circle": 20, "square": 18, "portrait": [16, 20], "landscape": [20, 16] },
+      "corners": { "family": "circular", "radius": { "large": 1, "small": 0.5 }, "largeThreshold": 8 },
+      "caps": "square", "joins": "miter", "angles": [0, 45, 90], "detail": "low", "minGap": 2,
+      "badge": { "position": "bottom-right", "size": 8, "gap": 2 }
+    }
+  }
+}

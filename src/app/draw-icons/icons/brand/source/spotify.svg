@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="music brand logo">
+  <circle cx="12" cy="12" r="10"/>
+  <path d="M7 9A10 10 0 0 1 17 9" data-role="detail"/>
+  <path d="M8 13A8 8 0 0 1 16 13" data-role="detail"/>
+  <path d="M9 17A6 6 0 0 1 15 17" data-role="detail"/>
+  <circle cx="12" cy="12" r="10" data-role="silhouette"/>
+</svg>

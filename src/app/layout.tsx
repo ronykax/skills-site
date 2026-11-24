@@ -1,15 +1,16 @@
-import type { Metadata } from "next";
+import localFont from "next/font/local";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Skills",
-  description:
-    "Rony's Agent Skills to give AI agents new capabilities and expertise.",
-};
+const allo = localFont({
+  src: "../../node_modules/allo-font/fonts/webfonts/AlloVariable.woff2",
+  variable: "--font-allo",
+  weight: "100 900",
+  display: "swap",
+});
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html className="antialiased" lang="en">
+    <html className={`${allo.variable} antialiased`} lang="en">
       <body>{children}</body>
     </html>
   );

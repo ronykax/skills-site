@@ -1,0 +1,12 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <title>draw-icons</title>
+  <clipPath id="tile">
+    <rect height="32" rx="8" width="32" />
+  </clipPath>
+  <g clip-path="url(#tile)">
+    <path d="M0 0H32L16 16Z" fill="#ff4fa3" />
+    <path d="M32 0V32L16 16Z" fill="#e3a600" />
+    <path d="M32 32H0L16 16Z" fill="#1fb86a" />
+    <path d="M0 32V0L16 16Z" fill="#2f6bff" />
+  </g>
+</svg>
