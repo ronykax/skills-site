@@ -87,6 +87,8 @@ export default function DrawIconsPage() {
         <a
           className="font-display flex items-center gap-2 text-xl font-bold tracking-tight"
           href="/draw-icons"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           <Logo className="size-6" />
           <span>
@@ -99,6 +101,8 @@ export default function DrawIconsPage() {
         <a
           className="bg-foreground/6 hover:bg-foreground/10 flex items-center gap-1.5 rounded-full py-2 pr-4 pl-3 text-sm font-medium transition-colors"
           href="https://github.com/ronykax/skills"
+          rel="noopener noreferrer"
+          target="_blank"
         >
           {starIcon}
           Star on GitHub
@@ -195,6 +199,8 @@ export default function DrawIconsPage() {
               className="hover:text-foreground transition-colors"
               href={link.href}
               key={link.href}
+              rel="noopener noreferrer"
+              target="_blank"
             >
               {link.label}
             </a>
