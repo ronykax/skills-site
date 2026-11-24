@@ -87,8 +87,6 @@ export default function DrawIconsPage() {
         <a
           className="font-display flex items-center gap-2 text-xl font-bold tracking-tight"
           href="/draw-icons"
-          rel="noopener noreferrer"
-          target="_blank"
         >
           <Logo className="size-6" />
           <span>
