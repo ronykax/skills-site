@@ -1,6 +1,6 @@
 product: Showcase icons for the draw-icons skill landing page
 personality: [friendly, soft, playful]
-sizes: [48, 88]
+sizes: [36]
 dir: src/app/draw-icons/icons/brand
 dna:
   style: filled

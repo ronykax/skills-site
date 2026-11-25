@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="pins ideas brand logo" data-waive-radius="the P bowl is round, like the letter in the Pinterest mark">
+  <circle cx="12" cy="12" r="10"/>
+  <circle cx="12" cy="12" r="10" data-role="silhouette"/>
+  <path d="M10 17.5V7.5" data-role="detail"/>
+  <path d="M10 7.5H13a3 3 0 0 1 0 6H10" data-role="detail"/>
+</svg>

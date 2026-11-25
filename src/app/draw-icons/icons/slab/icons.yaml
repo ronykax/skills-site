@@ -1,0 +1,16 @@
+product: Showcase icons for the draw-icons skill landing page
+personality: [chunky, bold, solid]
+sizes: [36]
+dir: src/app/draw-icons/icons/slab
+dna:
+  style: filled
+  stroke: 3
+  grid: 24
+  padding: 1
+  keylines: { circle: 19, square: 17, portrait: [15, 19], landscape: [19, 15] }
+  corners: { family: circular, radius: { large: 1.5, small: 1 }, largeThreshold: 8 }
+  caps: butt
+  joins: round
+  angles: [0, 45, 90]
+  detail: minimal
+  minGap: 2

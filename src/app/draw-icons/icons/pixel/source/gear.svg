@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" data-aliases="settings preferences" data-waive-heavy="pixel teeth need a solid ring to read as a gear">
+  <path d="M5.5 1.5L6.5 1.5L6.5 3.5L8.5 3.5L8.5 5.5L10.5 5.5L10.5 6.5L8.5 6.5L8.5 8.5L6.5 8.5L6.5 10.5L5.5 10.5L5.5 8.5L3.5 8.5L3.5 6.5L1.5 6.5L1.5 5.5L3.5 5.5L3.5 3.5L5.5 3.5Z"/>
+  <path d="M2.5 2.5L3.5 2.5L3.5 3.5L2.5 3.5Z"/>
+  <path d="M8.5 2.5L9.5 2.5L9.5 3.5L8.5 3.5Z"/>
+  <path d="M3.5 8.5L3.5 9.5L2.5 9.5L2.5 8.5Z"/>
+  <path d="M8.5 8.5L9.5 8.5L9.5 9.5L8.5 9.5Z"/>
+  <path d="M5.5 5.5H6.5V6.5H5.5Z" data-role="detail"/>
+  <path d="M5.5 1.5L6.5 1.5L6.5 3.5L8.5 3.5L8.5 5.5L10.5 5.5L10.5 6.5L8.5 6.5L8.5 8.5L6.5 8.5L6.5 10.5L5.5 10.5L5.5 8.5L3.5 8.5L3.5 6.5L1.5 6.5L1.5 5.5L3.5 5.5L3.5 3.5L5.5 3.5Z" data-role="silhouette"/>
+  <path d="M2.5 2.5L3.5 2.5L3.5 3.5L2.5 3.5Z" data-role="silhouette"/>
+  <path d="M8.5 2.5L9.5 2.5L9.5 3.5L8.5 3.5Z" data-role="silhouette"/>
+  <path d="M3.5 8.5L3.5 9.5L2.5 9.5L2.5 8.5Z" data-role="silhouette"/>
+  <path d="M8.5 8.5L9.5 8.5L9.5 9.5L8.5 9.5Z" data-role="silhouette"/>
+</svg>

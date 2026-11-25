@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" data-aliases="favorite rating">
+  <path d="M5.5 2.5L6.5 2.5L6.5 4.5L7.5 4.5L7.5 5.5L9.5 5.5L9.5 6.5L8.5 6.5L8.5 9.5L7.5 9.5L7.5 8.5L4.5 8.5L4.5 9.5L3.5 9.5L3.5 6.5L2.5 6.5L2.5 5.5L4.5 5.5L4.5 4.5L5.5 4.5Z"/>
+  <path d="M3.5 9.5L3.5 10.5L2.5 10.5L2.5 9.5Z"/>
+  <path d="M8.5 9.5L9.5 9.5L9.5 10.5L8.5 10.5Z"/>
+  <path d="M1.5 5.5H2.5"/>
+  <path d="M9.5 5.5H10.5"/>
+  <path d="M5.5 2.5L6.5 2.5L6.5 4.5L7.5 4.5L7.5 5.5L9.5 5.5L9.5 6.5L8.5 6.5L8.5 9.5L7.5 9.5L7.5 8.5L4.5 8.5L4.5 9.5L3.5 9.5L3.5 6.5L2.5 6.5L2.5 5.5L4.5 5.5L4.5 4.5L5.5 4.5Z" data-role="silhouette"/>
+  <path d="M3.5 9.5L3.5 10.5L2.5 10.5L2.5 9.5Z" data-role="silhouette"/>
+  <path d="M8.5 9.5L9.5 9.5L9.5 10.5L8.5 10.5Z" data-role="silhouette"/>
+</svg>

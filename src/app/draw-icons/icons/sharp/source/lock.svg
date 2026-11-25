@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="private secure">
-  <path d="M4 11H20V21H4Z"/>
-  <path d="M8 11V7A4 4 0 0 1 16 7V11"/>
-  <path d="M12 15V17"/>
-  <path d="M4 11H20V21H4Z" data-role="silhouette"/>
-</svg>

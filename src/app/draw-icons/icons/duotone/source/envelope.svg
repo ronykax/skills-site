@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="mail email inbox" data-waive-angle="the flap follows the envelope proportions, not 45°">
+  <rect x="2" y="4" width="20" height="16" rx="2"/>
+  <path d="M2 7L11.486 12.691A1 1 0 0 0 12.514 12.691L22 7"/>
+  <rect x="2" y="4" width="20" height="16" rx="2" data-role="silhouette"/>
+</svg>

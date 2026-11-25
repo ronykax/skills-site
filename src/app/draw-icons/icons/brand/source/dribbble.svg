@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="design community brand logo" data-waive-off-grid="the seams follow the ball, wherever they meet its edge">
+  <circle cx="12" cy="12" r="10"/>
+  <circle cx="12" cy="12" r="10" data-role="silhouette"/>
+  <path d="M8.58 2.6C12 7.5 15.5 13.5 17 20.66" data-role="detail"/>
+  <path d="M2.15 13.74C8 12 15 12.5 21.4 15.42" data-role="detail"/>
+</svg>

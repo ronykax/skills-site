@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="creators membership brand logo" data-waive-gap="the bar is solid; its sides only look close in the outline">
+  <circle cx="15.5" cy="9" r="5.5"/>
+  <circle cx="15.5" cy="9" r="5.5" data-role="silhouette"/>
+  <path d="M4.5 3L5 3C5.471 3 5.707 3 5.854 3.146C6 3.293 6 3.529 6 4L6 20C6 20.471 6 20.707 5.854 20.854C5.707 21 5.471 21 5 21L4 21C3.529 21 3.293 21 3.146 20.854C3 20.707 3 20.471 3 20L3 4C3 3.529 3 3.293 3.146 3.146C3.293 3 3.529 3 4 3Z"/>
+  <path d="M4.5 3L5 3C5.471 3 5.707 3 5.854 3.146C6 3.293 6 3.529 6 4L6 20C6 20.471 6 20.707 5.854 20.854C5.707 21 5.471 21 5 21L4 21C3.529 21 3.293 21 3.146 20.854C3 20.707 3 20.471 3 20L3 4C3 3.529 3 3.293 3.146 3.146C3.293 3 3.529 3 4 3Z" data-role="silhouette"/>
+</svg>

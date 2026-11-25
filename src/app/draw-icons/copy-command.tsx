@@ -74,18 +74,20 @@ export function CopyCommand({
   return (
     <button
       aria-label={`Copy command: ${command}`}
-      className="group bg-foreground text-background flex w-full max-w-2xl cursor-pointer items-center gap-3 rounded-2xl py-2 pr-2 pl-5 text-left shadow-[0_1px_0_rgb(0_0_0/0.04),0_12px_32px_-12px_rgb(0_0_0/0.35)] transition-transform active:scale-[0.99]"
+      className="bg-foreground/6 hover:bg-foreground/10 flex w-full max-w-2xl cursor-pointer items-center gap-3 rounded-2xl py-2 pr-2 pl-5 text-left transition-[background-color,scale] active:scale-[0.99]"
       onClick={copy}
       type="button"
     >
-      <code className="min-w-0 flex-1 py-2 font-mono text-[13px] leading-relaxed font-medium tracking-normal sm:text-[15px]">
-        <span className="text-background/45 select-none">$ </span>
+      <code className="min-w-0 flex-1 truncate py-2 font-mono text-[13px] leading-relaxed font-semibold tracking-tight sm:text-[15px]">
+        <span className="text-foreground/40 mr-2.5 inline-block text-[1.15em] leading-none select-none">
+          $
+        </span>
         npx skills add ronykax/skills{" "}
-        <span className="text-background/60">--skill</span> draw-icons
+        <span className="text-foreground/55">--skill</span> draw-icons
       </code>
       <span
-        className={`flex shrink-0 items-center gap-1.5 rounded-xl px-3.5 py-2.5 text-sm font-medium text-white transition-colors ${
-          copied ? "bg-mint" : "bg-cobalt group-hover:bg-grape"
+        className={`flex shrink-0 items-center gap-1.5 rounded-xl px-3.5 py-2.5 text-sm font-medium shadow-[0_1px_2px_rgb(0_0_0/0.08)] transition-colors ${
+          copied ? "bg-mint text-white" : "text-foreground bg-white"
         }`}
       >
         <span className="grid size-5 *:col-start-1 *:row-start-1 *:transition-all *:duration-200">

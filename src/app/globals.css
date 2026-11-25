@@ -3,30 +3,18 @@
 :root {
   --background: #fbf9f6;
   --foreground: #171717;
-  /* Very light card tints for the showcase grid. */
-  --tint-mint: #e8f4ea;
-  --tint-sky: #e7eefa;
-  --tint-rose: #faeaee;
-  --tint-lilac: #efeafa;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-tint-mint: var(--tint-mint);
-  --color-tint-sky: var(--tint-sky);
-  --color-tint-rose: var(--tint-rose);
-  --color-tint-lilac: var(--tint-lilac);
 
-  /* Accent palette for the "What you get" dots. */
   --color-bubblegum: #ff4fa3;
-  --color-tangerine: #ff7a1a;
   --color-lemon: #e3a600;
   --color-mint: #1fb86a;
   --color-lagoon: #0aa8b8;
   --color-cobalt: #2f6bff;
   --color-grape: #8a5cf6;
-  --color-tomato: #f2453d;
 
   /* Allo (variable: wght, ROND, opsz). Display is round and tight, body is crisp and open. */
   --font-display: var(--font-allo), ui-sans-serif, system-ui, sans-serif;
@@ -41,17 +29,6 @@
     50% {
       opacity: 0;
     }
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f0e0d;
-    --foreground: #f1efec;
-    --tint-mint: #16201a;
-    --tint-sky: #161b26;
-    --tint-rose: #24171b;
-    --tint-lilac: #1d1826;
   }
 }
 

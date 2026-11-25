@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="photos social brand logo" data-waive-silhouette-missing="the Instagram glyph is an outlined camera, not a solid one" data-waive-off-grid="the lens dot sits where the real logo puts it">
+  <path d="M12 2.5L17.5 2.5C19.386 2.5 20.328 2.5 20.914 3.086C21.5 3.672 21.5 4.614 21.5 6.5L21.5 17.5C21.5 19.386 21.5 20.328 20.914 20.914C20.328 21.5 19.386 21.5 17.5 21.5L6.5 21.5C4.614 21.5 3.672 21.5 3.086 20.914C2.5 20.328 2.5 19.386 2.5 17.5L2.5 6.5C2.5 4.614 2.5 3.672 3.086 3.086C3.672 2.5 4.614 2.5 6.5 2.5Z"/>
+  <circle cx="12" cy="12" r="3"/>
+  <path d="M17 7h.01"/>
+</svg>

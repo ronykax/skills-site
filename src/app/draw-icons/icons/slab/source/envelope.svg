@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-aliases="mail email inbox" data-waive-angle="the flap follows the envelope proportions, not 45 degrees">
+  <path d="M12 4.5L20 4.5A1.5 1.5 0 0 1 21.5 6L21.5 18A1.5 1.5 0 0 1 20 19.5L4 19.5A1.5 1.5 0 0 1 2.5 18L2.5 6A1.5 1.5 0 0 1 4 4.5Z"/>
+  <path d="M12 4.5L20 4.5A1.5 1.5 0 0 1 21.5 6L21.5 18A1.5 1.5 0 0 1 20 19.5L4 19.5A1.5 1.5 0 0 1 2.5 18L2.5 6A1.5 1.5 0 0 1 4 4.5Z" data-role="silhouette"/>
+  <path d="M7.5 10L11.445 12.63A1 1 0 0 0 12.555 12.63L16.5 10" data-role="detail"/>
+</svg>

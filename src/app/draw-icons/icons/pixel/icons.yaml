@@ -1,6 +1,6 @@
 product: Showcase icons for the draw-icons skill landing page
 personality: [playful, retro, crisp]
-sizes: [48, 96]
+sizes: [36]
 dir: src/app/draw-icons/icons/pixel
 dna:
   style: filled
