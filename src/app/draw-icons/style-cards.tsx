@@ -1,5 +1,6 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
+import { PromptButton } from "./prompt-button";
 
 const DIR = join(process.cwd(), "src/app/draw-icons");
 
@@ -50,8 +51,8 @@ interface CardStyle {
   ink: string;
   label: string;
   layout: Layout;
-  // The /draw-icons prompt behind each style, kept for a "click to copy" later.
-  // prompt: string;
+  /** The /draw-icons prompt behind this style, copied when the card is tapped. */
+  prompt: string;
   /** Icon set folder in ./icons. */
   set: string;
 }
@@ -67,7 +68,7 @@ const STYLES: CardStyle[] = [
     icons: [...CONCEPTS, "face"],
     layout: "grid",
     card: "bg-[#c6ef4f] text-[#5f8f14]",
-    // prompt: "retro pixel art on a 12px grid",
+    prompt: "retro pixel art on a 12px grid",
   },
   {
     set: "slab",
@@ -79,7 +80,7 @@ const STYLES: CardStyle[] = [
     icons: CONCEPTS,
     layout: "grid",
     card: "bg-[#ff5b4f] text-white/90",
-    // prompt: "chunky solid shapes, thick and blocky",
+    prompt: "chunky solid shapes, thick and blocky",
   },
   {
     set: "whiteboard",
@@ -91,7 +92,7 @@ const STYLES: CardStyle[] = [
     icons: CONCEPTS,
     layout: "scatter",
     card: "bg-[#dcebff] text-[#1f45c4]/55",
-    // prompt: "hand-drawn, like marker on a whiteboard",
+    prompt: "hand-drawn, like marker on a whiteboard",
   },
   {
     set: "duotone",
@@ -103,7 +104,7 @@ const STYLES: CardStyle[] = [
     icons: CONCEPTS,
     layout: "brick",
     card: "bg-[#8a5cf6] text-white",
-    // prompt: "soft outlines with a tinted fill",
+    prompt: "soft outlines with a tinted fill",
   },
   {
     set: "brand",
@@ -115,7 +116,7 @@ const STYLES: CardStyle[] = [
     icons: BRANDS,
     layout: "grid",
     card: "bg-[#10a99c] text-white",
-    // prompt: "our partner logos, redrawn to match",
+    prompt: "our partner logos, redrawn to match",
   },
   {
     set: "jelly",
@@ -127,7 +128,7 @@ const STYLES: CardStyle[] = [
     icons: CONCEPTS,
     layout: "brick",
     card: "bg-[#ff7bc0] text-white",
-    // prompt: "gummy, rounded solids with a little shine",
+    prompt: "gummy, rounded solids with a little shine",
   },
 ];
 
@@ -231,34 +232,38 @@ export function StyleCards() {
           className={`relative aspect-[2/1] overflow-hidden rounded-3xl [clip-path:inset(0_round_1.5rem)] ${style.card}`}
           key={style.set}
         >
-          <div className="absolute inset-0">
-            <svg
-              aria-hidden="true"
-              className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-85"
-              // biome-ignore lint/security/noDangerouslySetInnerHtml: trusted SVGs built from this repo's icon sources
-              dangerouslySetInnerHTML={{
-                __html: pattern(style, `sc-${style.set}`),
-              }}
-              height={CANVAS.h}
-              viewBox={`${-CANVAS.w / 2} ${-CANVAS.h / 2} ${CANVAS.w} ${CANVAS.h}`}
-              width={CANVAS.w}
-            />
-          </div>
-          <div className="absolute bottom-5 left-5">
-            {/* Fades the icons out behind the caption only, so the rest of the card stays clear. */}
-            <div
-              className="absolute -inset-6 -bottom-12 -left-12 rounded-3xl blur-md"
-              style={{ background: style.bg }}
-            />
-            <p
-              className={`font-display relative text-4xl leading-tight font-bold tracking-tight text-shadow-md ${style.heading}`}
-            >
-              {style.label}
-            </p>
-            <p className={`relative text-sm font-medium ${style.ink}`}>
-              {style.blurb}
-            </p>
-          </div>
+          <PromptButton label={style.label} prompt={style.prompt}>
+            <span className="absolute inset-0 transition-transform duration-300 ease-out group-hover:scale-108 motion-reduce:transition-none">
+              <svg
+                aria-hidden="true"
+                className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-85"
+                // biome-ignore lint/security/noDangerouslySetInnerHtml: trusted SVGs built from this repo's icon sources
+                dangerouslySetInnerHTML={{
+                  __html: pattern(style, `sc-${style.set}`),
+                }}
+                height={CANVAS.h}
+                viewBox={`${-CANVAS.w / 2} ${-CANVAS.h / 2} ${CANVAS.w} ${CANVAS.h}`}
+                width={CANVAS.w}
+              />
+            </span>
+            <span className="absolute bottom-5 left-5">
+              {/* Fades the icons out behind the caption only, so the rest of the card stays clear. */}
+              <span
+                className="absolute -inset-6 -bottom-12 -left-12 rounded-3xl blur-md"
+                style={{ background: style.bg }}
+              />
+              <span
+                className={`font-display relative block text-4xl leading-tight font-bold tracking-tight text-shadow-md ${style.heading}`}
+              >
+                {style.label}
+              </span>
+              <span
+                className={`relative block text-sm font-medium ${style.ink}`}
+              >
+                {style.blurb}
+              </span>
+            </span>
+          </PromptButton>
         </li>
       ))}
     </ul>
